@@ -1,0 +1,30 @@
+body{
+    font-family: "Jersey 10", sans-serif;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+p{
+    font-size: 30px; /* Tamanho da fonte */
+    font-weight: 300; /* Densidade do texto */
+    font-style: italic; /* Deixar texto em italálico */
+    text-align: justify; /* Deixar testo centralizado */
+    /*text-decoration: underline; */
+    /*text-transform: uppercase; */ /* Deixar texto todo em maiúsculo */
+    /*word-spacing: 5px; */ 
+    line-height: 30px;
+}
+
+ /* Formatação de listas */
+ 
+ol{
+    list-style: upper-roman;
+}
+ul{
+    list-style: url(../img/htmlsimbolo.png);
+}
+
+ol, ul{
+    list-style: none;
+}
